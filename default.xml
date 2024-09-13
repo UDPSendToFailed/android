@@ -869,8 +869,8 @@
   <project path="external/zstd" name="LineageOS/android_external_zstd" />
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <!--project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" /-->
+  <!--project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" /-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -885,7 +885,7 @@
   <project path="frameworks/libs/systemui" name="LineageOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <!--project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" /-->
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -896,7 +896,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk,sysui-studio" remote="aosp" />
+  <!--project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk,sysui-studio" remote="aosp" /-->
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
@@ -933,7 +933,7 @@
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/uwb" name="platform/hardware/nxp/uwb" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/weaver" name="platform/hardware/nxp/weaver" groups="pdk" remote="aosp" />
-  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
+  <!--project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" /-->
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="qcom,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" />
@@ -1067,11 +1067,11 @@
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ConfigInfrastructure" name="platform/packages/modules/ConfigInfrastructure" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
+  <!--project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" /-->
   <project path="packages/modules/CrashRecovery" name="platform/packages/modules/CrashRecovery" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/DeviceLock" name="platform/packages/modules/DeviceLock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!--project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aosp" /-->
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -1082,7 +1082,7 @@
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!--project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="aosp" /-->
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
@@ -1198,12 +1198,12 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
   <project path="system/authgraph" name="platform/system/authgraph" groups="pdk" remote="aosp" />
-  <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" />
+  <!--project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" /-->
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <!--project path="system/core" name="LineageOS/android_system_core" groups="pdk" /-->
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
@@ -1235,7 +1235,7 @@
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" remote="aosp" />
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" remote="aosp" />
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" remote="aosp" />
-  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
+  <!--project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" /-->
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/secretkeeper" name="platform/system/secretkeeper" groups="pdk" remote="aosp" />
@@ -1337,4 +1337,6 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/lineage-ul.xml" />
+  <include name="snippets/gta2xl.xml" />
 </manifest>

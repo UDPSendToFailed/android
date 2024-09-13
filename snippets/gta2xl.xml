@@ -1,0 +1,11 @@
+<manifest>
+
+  <remote name="gta2xl" fetch="https://github.com/UDPSendToFailed/" />
+
+  <project path="frameworks/av" name="android_frameworks_av" remote="gta2xl" revision="lineage-21.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="gta2xl" revision="lineage-21.0" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="gta2xl" revision="lineage-21.0" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="gta2xl" revision="lineage-21.0-caf-msm8996" />
+  <project path="system/netd" name="android_system_netd" remote="gta2xl" revision="lineage-21.0" />
+  
+</manifest>
