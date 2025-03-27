@@ -2,6 +2,10 @@
 
   <remote name="gta2xl" fetch="https://github.com/UDPSendToFailed/" />
 
+  <project path="build/soong" name="android_build_soong" remote="gta2xl" revision="crdroid-15.0" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="frameworks/av" name="android_frameworks_av" remote="gta2xl" revision="crdroid-15.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="gta2xl" revision="crdroid-15.0" />
   <project path="frameworks/native" name="android_frameworks_native" remote="gta2xl" revision="crdroid-15.0" />
